@@ -17,6 +17,14 @@ public class Studente {
 
     // Costruttori
 
+    public Studente(String matricola, String cognome, String nome, int cfu, double media) {
+        this.matricola = matricola;
+        this.cognome = cognome;
+
+        this.nome = nome;
+        this.cfu = cfu;
+
+        this.media = media;
 
     public String getMatricola() {
         return matricola;
@@ -58,13 +66,6 @@ public class Studente {
         this.media = media;
     }
 
-    public Studente(String matricola, String cognome, String nome, int cfu, double media) {
-        this.matricola = matricola;
-        this.cognome = cognome;
 
-        this.nome = nome;
-        this.cfu = cfu;
 
-        this.media = media;
-    }
 }
